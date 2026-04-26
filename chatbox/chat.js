@@ -1,7 +1,7 @@
 const chatBody = document.querySelector(".chat-body");
 const msgInput = document.querySelector(".msg-input");
 const sendBtn = document.querySelector(".enter");
-const apikey = "AIzaSyDTfX0rgUzYm0O0lQzVnZ09wJI0Nz1h_3U";
+const apikey = "";
 const apiurl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apikey}`
 const fileUploadWrapper = document.querySelector(".file-upload-wrapper");
 
